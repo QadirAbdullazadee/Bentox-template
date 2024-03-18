@@ -140,16 +140,7 @@ body {
   height: 95px;
   border-radius: 90px;
   border: 1px solid #e2cccca6;
-}
-
-.main-container .first-container .second-buttom ul li a img {
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.main-container .first-container .second-buttom ul li a img:hover {
-  opacity: 1;
-  transform: rotate(180deg);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-container .first-container .second-buttom ul li a i {
@@ -157,6 +148,11 @@ body {
   margin-left: 30px;
   font-size: 30px;
 }
+
+.main-container .first-container .second-buttom ul li a:hover {
+  background-color: #7f3fd2;
+}
+
 .last {
   width: 100%;
   display: flex;
